@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 var fs = require('fs'),
 json2Env = require('./App'),
 argv = process.argv[2],
