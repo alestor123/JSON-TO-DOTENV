@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "This is a simple code for converting json to dotenv file cli/module",
   "main": "App.js",
+  "bin": {
+    "json-to-env": "cli.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
