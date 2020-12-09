@@ -1,0 +1,19 @@
+{
+  "name": "json-to-dotenv",
+  "version": "1.0.0",
+  "description": "This is a simple code for converting json to dotenv file cli/module",
+  "main": "App.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alestor123/JSON-TO-DOTENV.git"
+  },
+  "author": "Alestor Aldous",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alestor123/JSON-TO-DOTENV/issues"
+  },
+  "homepage": "https://github.com/alestor123/JSON-TO-DOTENV#readme"
+}
