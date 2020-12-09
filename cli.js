@@ -35,6 +35,8 @@ else if (!argv){
 else{
     var store = JSON.parse(fs.readFileSync(argv, 'utf-8'));
     fs.writeFile(process.argv[3] || './.env',json2Env(store), (err) => {
-        if (err) throw err;
+        if (err){ throw err} else{
+          console.log('Done')
+        }
 });
 }
